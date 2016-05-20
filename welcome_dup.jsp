@@ -12,7 +12,6 @@ body {
 	font-size: 0.8em;
 	color: #999E88;
 }
-
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 	padding: 0;
@@ -21,13 +20,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-variant: small-caps;
 	color: #C73633;
 }
-
 h2 {
 	padding: 14px 0 0 0;
 	word-spacing: 5px;
 	font-size: 2.25em;
 }
-
 h3 {
 	padding: 20px 0 0 0;
 	border-bottom: 1px solid #95AE36;
@@ -35,60 +32,48 @@ h3 {
 	font-size: 1.85em;
 	color: #95AE36;
 }
-
 a {
 	color: #95AE36;
 }
-
 a:hover {
 	text-decoration: none;
 	color: #C73633;
 }
-
 .green {
 	color: #95AE36;
 }
-
 .red {
 	color: #C73633;
 }
-
 .gray {
 	color: #B9ADAC;
 }
-
 .image {
 	float: left;
 	margin: 0 20px 0 0;
 }
-
 .list, .list2c {
 	margin-left: 0;
 	padding-left: 0;
 	list-style: none;
 	line-height: 2em;
 }
-
 .list2c li {
 	float: left;
 	width: 50%;
 }
-
 /* Header */
-
 #header {
 	width: 700px;
 	height: 80px;
 	margin: 0 auto;
 }
-
 #header h1 {
 	float: left;
 	padding: 24px 0 0 10px;
 	letter-spacing: -3px;
 	font-size: 3.5em;
 }
-
 #header h2 {
 	float: right;
 	padding: 42px 10px 0 0;
@@ -96,29 +81,23 @@ a:hover {
 	letter-spacing: -1px;
 	font-size: 2em;
 }
-
 #header a {
 	text-decoration: none;
 }
-
 /* Menu */
-
 #menu {
 	width: 700px;
 	height: 30px;
 	margin: 0 auto;
 }
-
 #menu ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-
 #menu li {
 	display: inline;
 }
-
 #menu a {
 	display: block;
 	float: left;
@@ -133,28 +112,20 @@ a:hover {
 	font-variant: small-caps;
 	font-weight: bold;
 }
-
 #menu a:hover {
 	background: #A71615 url(images/img3.gif) repeat-x left top;
 }
-
 /* Content */
-
 #content {
 	width: 660px;
 	margin: 0 auto;
 	padding: 20px;
 }
-
 #colOne {
 	float: right;
 	width: 640px;
 }
-
-
-
 /* Footer */
-
 #footer {
 	clear: both;
 	width: 700px;
@@ -163,7 +134,6 @@ a:hover {
 	background: #87A12C url(images/img2.gif) repeat-x left bottom;
 	font: "Times New Roman", Times, serif;
 }
-
 #footer p, #footer a {
 	margin: 0;
 	text-align: center;
@@ -171,7 +141,6 @@ a:hover {
 	font-weight: bold;
 	color: #FFFFFF;
 }
-
 </style>
 </head>
 <body>
@@ -181,11 +150,11 @@ a:hover {
 </div>
 <div id="menu">
   <ul>
-    <li><a href="#" accesskey="1">Home</a></li>
-    <li><a href="#" accesskey="2">Places</a></li>
-    <li><a href="#" accesskey="3">Work / Passion</a></li>
-    <li><a href="#" accesskey="4">Interest / Hobbies</a></li>
-    <li><a href="#" accesskey="5">Contact Me</a></li>
+    <li><a href="http://localhost:8080/Web/welcome.do" accesskey="1">Home</a></li>
+    <li><a href="http://localhost:8080/Web/welcome1.do" accesskey="2">Places</a></li>
+    <li><a href="http://localhost:8080/Web/welcome2.do" accesskey="3">Work / Passion</a></li>
+    <li><a href="http://localhost:8080/Web/welcome3.do" accesskey="4">Tech & Skills</a></li>
+    <li><a href="http://localhost:8080/Web/welcome4.do" accesskey="5">Contact Me</a></li>
   </ul>
 </div>
 <div id="content">
@@ -208,5 +177,3 @@ a:hover {
 </div>
 </body>
 </html>
-
-]
