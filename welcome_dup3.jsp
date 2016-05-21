@@ -10,7 +10,7 @@ body {
 	background-image: DSC_2746.JPG repeat-y center top;
 	font-family: Arial, Helvetica, sans-serif;
 	<!-- font-size: 0.8em;  -->
-	font-size: 0.8em;
+	font-size: 1.25em;
 	color: #999E88;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -65,7 +65,7 @@ a:hover {
 }
 /* Header */
 #header {
-	width: 1000px;
+	width: 1200px;
 	height: 80px;
 	margin: 0 auto;
 }
@@ -102,8 +102,8 @@ a:hover {
 #menu a {
 	display: block;
 	float: left;
-	width: 140px;
-	height: 45px;
+	width: 200px;
+	height: 40px;
 	padding: 7px 0 0 0;
 	background: #87A12C url(images/img2.gif) repeat-x left bottom;
 	text-align: center;
@@ -126,6 +126,7 @@ a:hover {
 #colOne {
 	float: right;
 	width: 920px;
+	
 }
 /* Footer */
 #footer {
@@ -147,7 +148,7 @@ a:hover {
 </head>
 <body>
 <div id="header">
-  <h1 class="gray"><span class="green">HI!!</span> &amp; <span class="red">WELCOME</span></h1>
+ <!-- <h1 class="gray"><span class="green">HI!!</span> &amp; <span class="red">WELCOME</span></h1>  -->
   <!-- <h2 class="gray">By Free CSS Templates</h2> -->
 </div>
 <div id="menu">
@@ -169,9 +170,11 @@ a:hover {
     <h3>Also....</h3>
     <p>The image search engine was bascially based on swing and mySql at the backend acting as a databse to 
     store image information.The image are searched on the base of visual features and as well as
-    the key words associated with the image.Apart from this, i have a window 8 based apps based on javascript,css3,html5.It was basically a food
+    the key words associated with the image.The visual features of the image are extracted from perspectives like color,darkness,
+	hue,saturation,etc.A total of 64 features areextracted for a single image. Apart from this, i have a window 8 based apps based on javascript,css3,html5.It was basically a food
     app with instructions on how make various types of north/South indian dishes.It was done as a part of hobby.I also have participated in various
-    conferences hosted by google,microsoft,IEEE. </p>
+    conferences hosted by google,microsoft,IEEE.Further, i have also developed a piston dynamics motion sensor using open-GL and C++ as a part of mini 
+    project.	</p>
     
   </div>
  
